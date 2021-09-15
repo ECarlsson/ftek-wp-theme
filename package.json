@@ -7,7 +7,8 @@
     "build:prefix": "postcss style.css --replace --use autoprefixer",
     "build": "run-s \"build:*\"",
     "lint:sass": "stylelint **/*.scss",
-    "lint": "run-s \"lint:*\""
+    "lint": "run-s \"lint:*\"",
+    "make-pot": "wp i18n make-pot . languages/ftek-wp-theme.pot"
   },
   "repository": {
     "type": "git",
