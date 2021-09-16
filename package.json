@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Wordpress theme used by ftek.se, the website of The Physics Division at Chalmers University of Technology",
   "scripts": {
-    "build:sss": "sass assets/sass/style.scss:style.css --style=expanded --source-map",
+    "build:sass": "sass assets/sass/style.scss:style.css --style=expanded --source-map",
     "build:prefix": "postcss style.css --replace --use autoprefixer",
     "build:rtl": "rtlcss style.css rtl.css -c .rtlcssrc.json",
     "build": "run-s \"build:*\"",
