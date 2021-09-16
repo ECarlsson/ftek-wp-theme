@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "stylelint.vscode-stylelint"
+        "stylelint.vscode-stylelint",
+        "bmewburn.vscode-intelephense-client",
+        "felixfbecker.php-debug"
     ]
 }
