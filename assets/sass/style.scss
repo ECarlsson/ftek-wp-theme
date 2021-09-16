@@ -31,9 +31,9 @@ Text Domain: ftek-wp-theme
 @import "../bootstrap-5.1.1/scss/grid";
 // @import "../bootstrap-5.1.1/scss/tables";
 // @import "../bootstrap-5.1.1/scss/forms";
-// @import "../bootstrap-5.1.1/scss/buttons";
-// @import "../bootstrap-5.1.1/scss/transitions";
-// @import "../bootstrap-5.1.1/scss/dropdown";
+@import "../bootstrap-5.1.1/scss/buttons";
+@import "../bootstrap-5.1.1/scss/transitions";
+@import "../bootstrap-5.1.1/scss/dropdown";
 // @import "../bootstrap-5.1.1/scss/button-group";
 @import "../bootstrap-5.1.1/scss/nav";
 @import "../bootstrap-5.1.1/scss/navbar";
@@ -56,7 +56,11 @@ Text Domain: ftek-wp-theme
 // @import "../bootstrap-5.1.1/scss/placeholders";
 
 // Helpers
-// @import "../bootstrap-5.1.1/scss/helpers";
+@import "../bootstrap-5.1.1/scss/helpers";
 
 // Utilities API
-// @import "../bootstrap-5.1.1/scss/utilities/api";
+@import "../bootstrap-5.1.1/scss/utilities/api";
+
+// Import bootstrap icons
+
+@import "assets/bootstrap-icons-1.5.0/bootstrap-icons.css";
