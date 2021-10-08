@@ -14,6 +14,7 @@
         $logo = wp_get_attachment_image_src( $custom_logo_id, 'full' );
         echo '<img src="' . esc_url( $logo[0] ) . '" alt="' . get_bloginfo( 'name' ) . '" height="50" class="me-3">';
     }
-    bloginfo( 'name' );
+    bloginfo( 'title' )
+    
     ?>            
 </a>

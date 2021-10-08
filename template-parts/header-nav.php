@@ -8,10 +8,10 @@
 ?>
 
 <header id="header" role="banner" class="bg-light">
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav id="nav-menu-primary" class="navbar navbar-expand-md navbar-light">
         <div class="container">
             <?php get_template_part( 'template-parts/header', 'branding' ); ?>
             <?php get_template_part( 'template-parts/header', 'menu' ); ?>
         </div>
-    </nav>
+    </nav> <!-- #nav-menu-primary -->
 </header> <!-- #header -->

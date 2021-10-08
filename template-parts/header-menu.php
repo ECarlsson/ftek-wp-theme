@@ -5,9 +5,8 @@
  * @package ftek-wp-theme
  * @since ftek-wp-theme 1.0.0
  */
-?>
 
-<?php if ( has_nav_menu( 'primary' ) ) : ?>
+if ( has_nav_menu( 'primary' ) ) : ?>
     <button
         class="navbar-toggler"
         type="button"
