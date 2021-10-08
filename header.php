@@ -6,7 +6,6 @@
  * @since ftek-wp-theme 1.0.0
  */
 ?>
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -16,10 +15,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page">
+    <?php wp_body_open(); ?>
+    <div id="page">
 
-    <?php get_template_part( 'template-parts/header', 'nav' ); ?>
+        <?php get_template_part( 'template-parts/header', 'nav' ); ?>
 
-    <div id="primary">
         <main id="main" role="main">
