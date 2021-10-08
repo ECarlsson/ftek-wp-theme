@@ -25,16 +25,30 @@ function ftek_wp_theme_setup() {
 		)
 	);
 
+	// Register primary sidebar (widget area)
+	register_sidebar(
+		array(
+			'id'			=> 'primary',
+			'name'			=> esc_html__( 'Primary widget area', 'ftek-wp-theme' ),
+			'description'	=> esc_html__( 'Primary widget area displayed on front page.', 'ftek-wp-theme' ),
+			'before_widget'	=> '<div id="%1$s" class="widget %2$s">',
+			'after_widget'	=> '</div>',
+		)
+	);
+
 	// Use dynamic title tag
 	add_theme_support( 'title-tag' );
 
 	// Enable custom logo
-	add_theme_support( 'custom-logo', array(
-		'height'		=> 128,
-		'width'			=> 128,
-		'flex-height'	=> true,
-		'flex-width'	=> true
-	) );
+	add_theme_support(
+		'custom-logo',
+		array(
+			'height'		=> 128,
+			'width'			=> 128,
+			'flex-height'	=> true,
+			'flex-width'	=> true
+		)
+	);
 
 	// Enable post thumbnails and featured images
 	add_theme_support( 'post-thumbnails' );
