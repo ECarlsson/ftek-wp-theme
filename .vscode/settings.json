@@ -71,6 +71,7 @@
         "Zend OPcache",
         "zip",
         "zlib",
-        "wordpress"
+        "wordpress",
+        "xdebug"
     ]
 }
